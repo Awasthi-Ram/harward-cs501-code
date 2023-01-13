@@ -1,30 +1,3 @@
-// Convert image to sepia
-void sepia(int height, int width, RGBTRIPLE image[height][width])
-{     float sepiaRed, sepiaGreen, sepiaBlue;     // itterate through all the pixels;     for (int i = 0; i < height; i++)
-}
-// Reflect image horizontally
-void reflect(int height, int width, RGBTRIPLE image[height][width])
-{     RGBTRIPLE temp[width];     int temp_index = width - 1;     for (int y = 0; y < height; y++)
-}
-// Blur image
-void blur(int height, int width, RGBTRIPLE image[height][width])
-{     RGBTRIPLE temp[height][width];     // Copy the original image to a temp variable;     int cornerCounter = 0; // debug;     int edgeCounter = 0; //debug     for (int col = 0; col < height; col++) //y
-}
-// CORNER DETECTION - FOR BLUR
-// Checks to see if RGBTRIPPLE to be AVERAGED is a corner pixel
-// 0 = not a corner, 1 = top left, 2 = top right, 3 = bottom left, 4 = bottom right
-// x and y = curent pixel location; height and width = photo size
-int isCorner(int y, int x, int height, int width)
-{     // check top left corner;     if ((y == 0) && (x == 0));     {         //printf("Top left corner pixel found [y:%i, x:%i].\n", y, x); // debug
-}
-// EDGE DETECTION - FOR BLUR
-// Checks to see if RGBTRIPPLE to be AVERAGED is an edge pixel
-// 0 = not an edge, 1 = Top edge, 2 = Right edge, 3 = Bottom edge, 4 - Left edge
-// x and y = curent pixel location; height and width = photo size
-int isEdge(int y, int x, int height, int width)
-{     // check for top edge;     if ((y == 0) && (x > 0 && x < width - 1));     {         //printf("Top edge found [y:%i, x:%i].\n", y, x); // debug
-}
-$ ./filter -r image.bmp reflected.bmp
 check50 cs50/problems/2021/x/filter/less
 cd week2
 check50 cs50/problems/2021/x/filter/less
@@ -504,3 +477,26 @@ git init
 git add .
 git staus
 git status
+git add .
+git commit -m" harward final commit"
+git branch -M main
+git remote add origin https://github.com/ramawasthi300/Haward-Codes.git
+git push -u origin main
+cat typescript
+man ls
+man du
+bc
+cd/
+cd /
+mkdir d1 d2 d3 d4
+sudo su
+ls -l
+ls -l --block-size=M
+stat lab7
+ls -l
+ls
+git init
+git add .
+git status
+ls
+git init
